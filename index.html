@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animation JS - Tutorial #1</title>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<!-- Animation JS CDN / Source = https://cdnjs.com/libraries/animate.css/ -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+	<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body>
+    <main role="main" class="container">
+      <div class="jumbotron">
+        <h1>Testing the Animate.css with Javascript animation #1</h1>
+        <p class="lead">Animation when loading the page or hovering over the buttons</p>
+
+        <div class="row">
+          <!-- Loading page button animation -->	
+          <div class="col-lg-6 pull-left">
+			<button id="btn-1" type="button" class="btn btn-primary animated shake">Primary</button>
+
+			<button id="btn-2" type="button" class="btn btn-secondary animated wobble">Secondary</button>
+
+			<button id="btn-3" type="button" class="btn btn-success animated jello">Success</button>
+		  </div>
+		  <!-- Hover button animation -->
+		  <div class="col-lg-6 pull-right">
+			<button id="btn-4" type="button" class="btn btn-info">Info</button>
+
+			<button id="btn-5" type="button" class="btn btn-warning">Warning</button>
+
+			<button id="btn-6" type="button" class="btn btn-danger">Danger</button>
+		  </div>
+
+	    </div><!-- / .row -->
+	  <div><!-- /.jumbotron -->
+    </main><!-- /.container -->
+    
+
+</body>
+	<!-- JQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- Function JS-->
+	<script src="index.js"></script>
+	<!--Animation for the website-->
+	<script src="animation-web.js"></script>
+</script>
+</html>
