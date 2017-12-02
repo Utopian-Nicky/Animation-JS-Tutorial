@@ -8,3 +8,5 @@ animationHover(btn5,'bounce');
 
 btn6 = $('#btn-6');
 animationHover(btn6,'flash');
+
+
